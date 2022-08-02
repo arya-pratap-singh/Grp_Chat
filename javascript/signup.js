@@ -17,5 +17,8 @@ continuebtn.onclick = ()=>{
             }
         }
     }
-    xhr.send();
+   
+    let formdata = new FormData(form);
+    xhr.send(formdata);
+
 }
