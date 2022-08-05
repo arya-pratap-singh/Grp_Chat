@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class="wrapper"> 
         <section class="chat-area">
             <header>
                 <a href="#" class="back-icon"><i class="fas fa-arrow-left"></i></a>
