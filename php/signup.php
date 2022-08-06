@@ -45,6 +45,7 @@
                                                     VALUES ({$random_id}, '{$fname}','{$lname}','{$email}','{$password}','{$new_img_name}','{$status}')");
 
                                 if($sql2){
+                                   
                                     $sql3 = mysqli_query($conn , "SELECT * FROM users WHERE email = '{$email}'");
                                     if(mysqli_num_rows($sql3) > 0){
                                         $row = mysqli_fetch_assoc($sql3);

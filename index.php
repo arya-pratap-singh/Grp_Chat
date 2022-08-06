@@ -41,11 +41,11 @@
                 </div>
                 <div class="field button">
                    
-                    <input type="submit" value="continues to chat">
+                    <input type="submit" name="submit" value="continues to chat">
                 </div>
                 
             </form>
-            <div class="link">Already Signed up? <a href="#">Login now</a></div>
+            <div class="link">Already Signed up? <a href="login.php">Login now</a></div>
         </section>
     </div>
     <script src="javascript/pass-show-hide.js"></script>

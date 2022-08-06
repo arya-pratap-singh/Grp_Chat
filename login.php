@@ -32,7 +32,7 @@
                 </div>
                
             </form>
-            <div class="link">Not yet Signed up? <a href="#">Sign up!</a></div>
+            <div class="link">Not yet Signed up? <a href="index.php">Sign up!</a></div>
         </section>
     </div>
     <script src="javascript/pass-show-hide.js"></script>
