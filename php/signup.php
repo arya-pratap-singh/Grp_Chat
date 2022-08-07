@@ -34,7 +34,7 @@
 
                             $new_img_name = $time.$img_name;
 
-                            $target_loc = "images/.$new_img_name";
+                            $target_loc = "images/$new_img_name";
 
                             if(move_uploaded_file($tmp_name,$target_loc)){
                                 
